@@ -1,11 +1,20 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { HeaderResponsive } from 'src/components/Header/Header';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <HeaderResponsive
+        links={[
+          {
+            label: 'Home',
+            link: '/',
+          },
+          {
+            label: 'About',
+            link: '/about',
+          },
+        ]}
+      />
     </>
   );
 }

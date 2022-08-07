@@ -1717,6 +1717,13 @@
   dependencies:
     "@mantine/utils" "5.0.2"
 
+"@mantine/form@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@mantine/form/-/form-5.0.3.tgz#e3f8e0ab4cb648221cd75c8472abb56d76935944"
+  integrity sha512-OUMPtRCpB2JFiLgE+RqdQCX3QuyYMye9X/CeFh15FbXJO0MuYM2vD3r7xT6O9owF9uBLYkOgJMfYtLl+PF3kXg==
+  dependencies:
+    klona "^2.0.5"
+
 "@mantine/hooks@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.0.2.tgz#78fc9e2289fa5f176c23ec6a3a00012e55a0e2ae"
@@ -8363,7 +8370,7 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-klona@^2.0.4:
+klona@^2.0.4, klona@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
